@@ -273,11 +273,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Activity\\Other\\Walkers\\src\\WTEAnton\\TextProcessingLogic\\TextProcessing.Logic.csproj",
+      "projectUniqueName": "C:\\Activity\\Other\\Walkers\\src\\src\\rp\\Walkers-Technical-excersize---Anton\\TextProcessingLogic\\TextProcessing.Logic.csproj",
       "projectName": "TextProcessing.Logic",
-      "projectPath": "C:\\Activity\\Other\\Walkers\\src\\WTEAnton\\TextProcessingLogic\\TextProcessing.Logic.csproj",
+      "projectPath": "C:\\Activity\\Other\\Walkers\\src\\src\\rp\\Walkers-Technical-excersize---Anton\\TextProcessingLogic\\TextProcessing.Logic.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Activity\\Other\\Walkers\\src\\WTEAnton\\TextProcessingLogic\\obj\\",
+      "outputPath": "C:\\Activity\\Other\\Walkers\\src\\src\\rp\\Walkers-Technical-excersize---Anton\\TextProcessingLogic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

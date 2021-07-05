@@ -1,10 +1,9 @@
 using NUnit.Framework;
 using SimpleInjector;
-using TextProcessingLogic.Common;
-using TextProcessingLogic.Interfaces;
-using TextProcessingLogic.IoC;
+using TextProcessing.Logic.Common;
+using TextProcessing.Logic.Interfaces;
 
-namespace TextProcessingLogic.Tests
+namespace TextProcessing.Logic.Tests
 {
     public class NumbersProcessingTests
     {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wHikUezMfyByRQn6R9BwlIgu0lKESiZnE4ciRseQVKukhZhLtLC3jtaQ+tdtGfUR7TGEmTRZL1Q6jH+XJ8QyxA==",
+  "dgSpecHash": "nnbaPEARJC3qzRnW972Otg7FCpLIk5Ky9m4g26ndPFYO5rUTRp/jlX7Ya99ykf96iCM//Cs7oGn0xjK5EeBT6g==",
   "success": true,
-  "projectFilePath": "C:\\Activity\\Other\\Walkers\\src\\WTEAnton\\TextProcessingLogic\\TextProcessing.Logic.csproj",
+  "projectFilePath": "C:\\Activity\\Other\\Walkers\\src\\src\\rp\\Walkers-Technical-excersize---Anton\\TextProcessingLogic\\TextProcessing.Logic.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",

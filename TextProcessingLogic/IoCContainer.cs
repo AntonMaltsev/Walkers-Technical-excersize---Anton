@@ -1,31 +1,34 @@
 ﻿using System;
 using SimpleInjector;
 
-namespace TextProcessingLogic.IoC
+namespace TextProcessing.Logic
 {
     public static class IoCContainer
     {
         private static readonly object InstanceLock = new object();
 
-        private static volatile Container containerInstance;
+        private static volatile Container _containerInstance;
 
         public static Container Default
         {
             get
             {
-                if (containerInstance == null)
+                if (_containerInstance == null)
                 {
                     lock (InstanceLock)
                     {
-                        if (containerInstance == null)
+                        if (_containerInstance == null)
                         {
-                            containerInstance = new Container();
-                            containerInstance.Options.AllowOverridingRegistrations = true;
+                            _containerInstance = new Container();
+                            _containerInstance.Options.AllowOverridingRegistrations = true;
                         }
                     }
                 }
 
-                return containerInstance;
+                lock (InstanceLock)
+                {
+                    return _containerInstance;
+                }
             }
         }
 
@@ -36,7 +39,7 @@ namespace TextProcessingLogic.IoC
 
             lock (InstanceLock)
             {
-                containerInstance = container;
+                _containerInstance = container;
             }
         }
     }

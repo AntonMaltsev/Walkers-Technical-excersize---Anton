@@ -1,11 +1,14 @@
-﻿using TextProcessingLogic.Interfaces;
+﻿using System;
+using TextProcessing.Logic.Interfaces;
 
-namespace TextProcessingLogic.Common
+namespace TextProcessing.Logic.Common
 {
     public class NumberProcessing : INumbersProcessing
     {
-        private const string replaceWalkersRule = "walkers";
-        private const string replaceAssessmentRule = "assessment";
+        private const string ReplaceWalkersRule = "walkers";
+        private const string ReplaceAssessmentRule = "assessment";
+        private const string MondayWalkersRule = "walkers-m";
+        private const string MondayAssessmentRule = "assessment-m";
 
         public string BasicProcessor(int sequenceElement)
         {
@@ -13,19 +16,32 @@ namespace TextProcessingLogic.Common
 
             if (sequenceElement % 3 == 0)
             {
-                output = replaceWalkersRule;
+                output = MondayCheck(ReplaceWalkersRule);
 
                 if (sequenceElement % 5 == 0)
                 {
-                    output +=  $" {replaceAssessmentRule}";
+                    output +=  $" {MondayCheck(ReplaceAssessmentRule)}";
                 }
             }
             else if (sequenceElement % 5 == 0)
             {
-                output = replaceAssessmentRule;
+                output = MondayCheck(ReplaceAssessmentRule);
             }
 
             return output == string.Empty ? sequenceElement.ToString() : output;
+        }
+
+        public string MondayCheck(string value)
+        {
+            if(DateTime.Now.DayOfWeek == DayOfWeek.Monday)
+                return value switch
+                {
+                    ReplaceWalkersRule => MondayWalkersRule,
+                    ReplaceAssessmentRule => MondayAssessmentRule,
+                    _ => value
+                };
+
+            return value;
         }
     }
 }

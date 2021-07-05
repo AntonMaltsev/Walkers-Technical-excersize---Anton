@@ -1,11 +1,11 @@
 ﻿using System;
-using TextProcessingLogic.Common;
+using TextProcessing.Logic.Common;
 
-namespace TextProcessingLogic
+namespace TextProcessing.Logic
 {
     public class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("Walkers Technical Assessment - Anton");
             Console.WriteLine("Please enter number between 1 and 200");
@@ -13,8 +13,8 @@ namespace TextProcessingLogic
             if (int.TryParse(Console.ReadLine() ?? string.Empty, out var inputNumber))
                 Console.WriteLine("Entered number is not valid");
 
-            var a = new NumbersDisplaying();
-            a.DisplayFullSquence(inputNumber);
+            var display = new NumbersDisplaying();
+            display.DisplayFullSquence(inputNumber);
         }
     }
 }

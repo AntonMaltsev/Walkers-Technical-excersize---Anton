@@ -1,6 +1,6 @@
-﻿using TextProcessingLogic.Interfaces;
+﻿using TextProcessing.Logic.Interfaces;
 
-namespace TextProcessingLogic.Common
+namespace TextProcessing.Logic.Common
 {
     public class NumberValidating : INumberValidation
 
