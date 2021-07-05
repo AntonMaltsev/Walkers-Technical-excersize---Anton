@@ -10,11 +10,12 @@ namespace TextProcessing.Logic
             Console.WriteLine("Walkers Technical Assessment - Anton");
             Console.WriteLine("Please enter number between 1 and 200");
 
-            if (int.TryParse(Console.ReadLine() ?? string.Empty, out var inputNumber))
+            if (!int.TryParse(Console.ReadLine() ?? string.Empty, out var inputNumber))
                 Console.WriteLine("Entered number is not valid");
 
             var display = new NumbersDisplaying();
-            display.DisplayFullSquence(inputNumber);
+            display.DisplayFullSquenceWithPaging(inputNumber, 20);
+            Console.WriteLine();
         }
     }
 }

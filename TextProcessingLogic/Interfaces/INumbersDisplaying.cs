@@ -4,7 +4,8 @@ namespace TextProcessing.Logic.Interfaces
 {
     public interface INumbersDisplaying
     {
-        void DisplayFullSquence(int inputNumber);
-        
+        void DisplayFullSquence(int startNumber, int inputNumber);
+
+        public void DisplayFullSquenceWithPaging(int inputNumber, int pageSize);
     }
 }

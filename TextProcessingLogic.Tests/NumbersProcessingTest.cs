@@ -1,3 +1,4 @@
+using System;
 using NUnit.Framework;
 using SimpleInjector;
 using TextProcessing.Logic.Common;
@@ -35,8 +36,17 @@ namespace TextProcessing.Logic.Tests
             var validationResult = _validatingService.BasicValidation(number);
             Assert.AreEqual(validationResult, true);
 
-            Assert.AreEqual(_processingService.BasicProcessor(3), "walkers");
-            Assert.AreEqual(_processingService.BasicProcessor(5), "assessment");
+            if (DateTime.Now.DayOfWeek == DayOfWeek.Monday)
+            {
+                Assert.AreEqual(_processingService.BasicProcessor(3), "walkers-m");
+                Assert.AreEqual(_processingService.BasicProcessor(5), "assessment-m");
+            }
+            else
+            {
+                Assert.AreEqual(_processingService.BasicProcessor(3), "walkers");
+                Assert.AreEqual(_processingService.BasicProcessor(5), "assessment");
+            }
+
             Assert.AreEqual(_processingService.BasicProcessor(15), "walkers assessment");
         }
 
