@@ -1,0 +1,12 @@
+C:\Activity\Other\Walkers\src\WTEAnton\TextProcessingLogic\bin\Debug\netcoreapp3.1\TextProcessingLogic.exe
+C:\Activity\Other\Walkers\src\WTEAnton\TextProcessingLogic\bin\Debug\netcoreapp3.1\TextProcessingLogic.deps.json
+C:\Activity\Other\Walkers\src\WTEAnton\TextProcessingLogic\bin\Debug\netcoreapp3.1\TextProcessingLogic.runtimeconfig.json
+C:\Activity\Other\Walkers\src\WTEAnton\TextProcessingLogic\bin\Debug\netcoreapp3.1\TextProcessingLogic.runtimeconfig.dev.json
+C:\Activity\Other\Walkers\src\WTEAnton\TextProcessingLogic\bin\Debug\netcoreapp3.1\TextProcessingLogic.dll
+C:\Activity\Other\Walkers\src\WTEAnton\TextProcessingLogic\bin\Debug\netcoreapp3.1\TextProcessingLogic.pdb
+C:\Activity\Other\Walkers\src\WTEAnton\TextProcessingLogic\obj\Debug\netcoreapp3.1\TextProcessingLogic.csprojAssemblyReference.cache
+C:\Activity\Other\Walkers\src\WTEAnton\TextProcessingLogic\obj\Debug\netcoreapp3.1\TextProcessingLogic.AssemblyInfoInputs.cache
+C:\Activity\Other\Walkers\src\WTEAnton\TextProcessingLogic\obj\Debug\netcoreapp3.1\TextProcessingLogic.AssemblyInfo.cs
+C:\Activity\Other\Walkers\src\WTEAnton\TextProcessingLogic\obj\Debug\netcoreapp3.1\TextProcessingLogic.dll
+C:\Activity\Other\Walkers\src\WTEAnton\TextProcessingLogic\obj\Debug\netcoreapp3.1\TextProcessingLogic.pdb
+C:\Activity\Other\Walkers\src\WTEAnton\TextProcessingLogic\obj\Debug\netcoreapp3.1\TextProcessingLogic.genruntimeconfig.cache
