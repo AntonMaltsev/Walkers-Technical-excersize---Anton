@@ -5,7 +5,7 @@ namespace TextProcessing.Logic
 {
     public class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
             Console.WriteLine("Walkers Technical Assessment - Anton");
             Console.WriteLine("Please enter number between 1 and 200");
