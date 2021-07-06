@@ -14,8 +14,6 @@ C:\Activity\Other\Walkers\src\src\rp\Walkers-Technical-excersize---Anton\TextPro
 C:\Activity\Other\Walkers\src\src\rp\Walkers-Technical-excersize---Anton\TextProcessing.WebAPI\obj\Debug\netcoreapp3.1\TextProcessing.WebAPI.csprojAssemblyReference.cache
 C:\Activity\Other\Walkers\src\src\rp\Walkers-Technical-excersize---Anton\TextProcessing.WebAPI\obj\Debug\netcoreapp3.1\TextProcessing.WebAPI.AssemblyInfoInputs.cache
 C:\Activity\Other\Walkers\src\src\rp\Walkers-Technical-excersize---Anton\TextProcessing.WebAPI\obj\Debug\netcoreapp3.1\TextProcessing.WebAPI.AssemblyInfo.cs
-C:\Activity\Other\Walkers\src\src\rp\Walkers-Technical-excersize---Anton\TextProcessing.WebAPI\obj\Debug\netcoreapp3.1\TextProcessing.WebAPI.csproj.CoreCompileInputs.cache
-C:\Activity\Other\Walkers\src\src\rp\Walkers-Technical-excersize---Anton\TextProcessing.WebAPI\obj\Debug\netcoreapp3.1\TextProcessing.WebAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Activity\Other\Walkers\src\src\rp\Walkers-Technical-excersize---Anton\TextProcessing.WebAPI\obj\Debug\netcoreapp3.1\TextProcessing.WebAPI.RazorTargetAssemblyInfo.cache
 C:\Activity\Other\Walkers\src\src\rp\Walkers-Technical-excersize---Anton\TextProcessing.WebAPI\obj\Debug\netcoreapp3.1\TextProcessing.WebAPI.csproj.CopyComplete
 C:\Activity\Other\Walkers\src\src\rp\Walkers-Technical-excersize---Anton\TextProcessing.WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\TextProcessing.WebAPI.StaticWebAssets.Manifest.cache
@@ -23,3 +21,11 @@ C:\Activity\Other\Walkers\src\src\rp\Walkers-Technical-excersize---Anton\TextPro
 C:\Activity\Other\Walkers\src\src\rp\Walkers-Technical-excersize---Anton\TextProcessing.WebAPI\obj\Debug\netcoreapp3.1\TextProcessing.WebAPI.dll
 C:\Activity\Other\Walkers\src\src\rp\Walkers-Technical-excersize---Anton\TextProcessing.WebAPI\obj\Debug\netcoreapp3.1\TextProcessing.WebAPI.pdb
 C:\Activity\Other\Walkers\src\src\rp\Walkers-Technical-excersize---Anton\TextProcessing.WebAPI\obj\Debug\netcoreapp3.1\TextProcessing.WebAPI.genruntimeconfig.cache
+C:\Activity\Other\Walkers\src\src\rp\Walkers-Technical-excersize---Anton\TextProcessing.WebAPI\bin\Debug\netcoreapp3.1\libman.json
+C:\Activity\Other\Walkers\src\src\rp\Walkers-Technical-excersize---Anton\TextProcessing.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Activity\Other\Walkers\src\src\rp\Walkers-Technical-excersize---Anton\TextProcessing.WebAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Activity\Other\Walkers\src\src\rp\Walkers-Technical-excersize---Anton\TextProcessing.WebAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Activity\Other\Walkers\src\src\rp\Walkers-Technical-excersize---Anton\TextProcessing.WebAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Activity\Other\Walkers\src\src\rp\Walkers-Technical-excersize---Anton\TextProcessing.WebAPI\obj\Debug\netcoreapp3.1\TextProcessing.WebAPI.csproj.CoreCompileInputs.cache
+C:\Activity\Other\Walkers\src\src\rp\Walkers-Technical-excersize---Anton\TextProcessing.WebAPI\obj\Debug\netcoreapp3.1\TextProcessing.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Activity\Other\Walkers\src\src\rp\Walkers-Technical-excersize---Anton\TextProcessing.WebAPI\obj\Debug\netcoreapp3.1\TextProcessing.WebAPI.MvcApplicationPartsAssemblyInfo.cache
